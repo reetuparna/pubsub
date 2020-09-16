@@ -23,7 +23,6 @@ public class Publisher implements Runnable{
 				topic.addMessage("I am pub"+id+ " writing "+ UUID.randomUUID());
 				Thread.currentThread().sleep(s);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
